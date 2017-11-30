@@ -22,7 +22,7 @@ RSS: false
 zhihu_username:     my519820363
 github_username:    my519820363
 #facebook_username:  my519820363
-jianshu_username:   my519820363
+jianshu_username:   b560da5f1388
 #twitter_username:   my519820363
 
 
@@ -45,43 +45,4 @@ gems: [jekyll-paginate]
 
 # Markdown settings
 # replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-# 评论系统
-# Disqus settings（https://disqus.com/）
-disqus_username: qiubaiying
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
-
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# Friends
-friends: [
-    {
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/b560da5f1388"
-    },{
-        title: "Android",
-        href: "https://android.com"
-    },{
-        title: "Android Developer",
-        href: "https://developer.android.com/"
-    }
-]
+# although redcarpet can auto highlight
